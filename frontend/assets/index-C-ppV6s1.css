@@ -55,6 +55,9 @@ html.dark nav a,
 html.dark nav span {
   color: #E5E5E5 !important;
 }
+html.dark nav span.text-red-600 {
+  color: #dc2626 !important;
+}
 html.dark nav a:hover {
   color: #ffffff !important;
 }
@@ -192,3 +195,20 @@ html.dark .hover\:bg-gray-100:hover {
 html.dark .text-green-600 {
   color: #4ade80 !important;
 }
+
+/* Mappex Icon */
+.mappex-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  display: block;
+}
+@media (min-width: 640px) {
+  .mappex-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
+}
+
